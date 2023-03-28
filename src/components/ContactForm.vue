@@ -121,6 +121,7 @@
             deleteContact() {
                 this.$emit("delete:contact", this.contactLocal.id);
             },
+
         },
     };
 </script>
